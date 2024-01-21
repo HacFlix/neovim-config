@@ -5,6 +5,6 @@ return {
   config =function ()
     require("bufferline").setup({})
     vim.keymap.set("n","<leader>bs",":BufferLinePick<cr>")
-    vim.keymap.set("n","<leader>bd",":BufferLinePickClose<cr>")
+    vim.keymap.set("n","<leader>bc",":BufferLinePickClose<cr>")
   end
 }
